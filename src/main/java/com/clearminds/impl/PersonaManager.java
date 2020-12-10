@@ -21,6 +21,7 @@ public class PersonaManager {
 	 
 	
 	public void	insertarPersona(Persona persona) {
+		this.serv = new ServicioPersonaArchivos();
 		serv.insertar(persona);
 		
 	}
